@@ -12,9 +12,9 @@
             @include('templates.header')
         </header>
 
-        <div class="container">
+        <main>
             @yield('content')
-        </div>
+        </main>
 
         <footer>
             @include('templates.footer')

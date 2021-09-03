@@ -1,0 +1,86 @@
+.jumbo {
+    height: 300px;
+    width: 100%;
+    background-image: url("/images/jumbotron.jpg");
+    background-position:top;
+    background-size: cover;
+}
+.home-page-content {
+    background-color: black;
+    .container {
+        .current-series {
+            text-align: center;
+            width: 180px;
+            color: white;
+            font-size: 16px;
+            background-color: #0282f9;
+            padding: 5px 15px;
+            position: relative;
+            top: -20px;
+        }
+        .row {
+            .comics-box {
+                padding: 15px 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
+                align-items: center;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                   .comics-details {
+                       .comics-thumb {
+                           width: 150px;
+                           height: 150px;
+                       }
+                       .comics-title {
+                           color: white;
+                           font-size: 12px;
+
+                       }
+                   } 
+                }
+            }
+        }
+        .load-more-button {
+            text-align: center;
+            width: 180px;
+            color: white;
+            font-size: 14px;
+            background-color: #0282f9;
+            padding: 5px 15px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    }
+    .mid-bar {
+        height: 100px;
+        margin-top: 25px;
+        background-color: #0282f9;
+        color: white;
+        display: flex;
+        align-items: center;
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0; // to fix bootstrap margins  
+            li {
+                padding: 0 25px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                img {
+                    width: 40px;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+}

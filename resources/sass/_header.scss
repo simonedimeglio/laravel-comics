@@ -14,11 +14,17 @@ header {
                 justify-content: flex-end;
                 align-items: center;
                 font-size: 12px;
+                span {
+                    margin-right: 25px;
+                }
             }
         }
 
         .main-nav-container {
-            height: 100px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .custom-width {
                 width: 80%;
                 margin: 0 auto;
@@ -29,16 +35,23 @@ header {
                 align-items: center;
                 font-size: 15px;
                 img {
-                    height: 35px;
-                    width: 35px;
+                    height: 45px;
                 }
                 ul {
                     list-style: none;
                     display: flex;
+                    margin: 0; // to fix bootstrap margins
                     li {
                         margin: 0 5px;
                         cursor: pointer;
                     }
+                }
+                input {
+                    border: none;
+                    background: none;
+                    border-bottom: 1px solid #0282f9;
+                    display: flex;
+                    flex-direction: row-reverse;
                 }
             }
         }

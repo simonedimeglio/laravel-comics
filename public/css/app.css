@@ -18,8 +18,15 @@ header nav .upper-nav-container .upper-nav {
   font-size: 12px;
 }
 
+header nav .upper-nav-container .upper-nav span {
+  margin-right: 25px;
+}
+
 header nav .main-nav-container {
-  height: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav .main-nav-container .custom-width {
@@ -35,18 +42,26 @@ header nav .main-nav-container .main-nav {
 }
 
 header nav .main-nav-container .main-nav img {
-  height: 35px;
-  width: 35px;
+  height: 45px;
 }
 
 header nav .main-nav-container .main-nav ul {
   list-style: none;
   display: flex;
+  margin: 0;
 }
 
 header nav .main-nav-container .main-nav ul li {
   margin: 0 5px;
   cursor: pointer;
+}
+
+header nav .main-nav-container .main-nav input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #0282f9;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer .upper-footer-container {
@@ -153,6 +168,98 @@ footer .bottom-footer-container .custom-width .social ul li {
 
 footer .bottom-footer-container .custom-width .social ul li img {
   width: 25px;
+}
+
+.jumbo {
+  height: 300px;
+  width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.home-page-content {
+  background-color: black;
+}
+
+.home-page-content .container .current-series {
+  text-align: center;
+  width: 180px;
+  color: white;
+  font-size: 16px;
+  background-color: #0282f9;
+  padding: 5px 15px;
+  position: relative;
+  top: -20px;
+}
+
+.home-page-content .container .row .comics-box {
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  text-align: center;
+}
+
+.home-page-content .container .row .comics-box a {
+  text-decoration: none;
+}
+
+.home-page-content .container .row .comics-box a .comics-details .comics-thumb {
+  width: 150px;
+  height: 150px;
+}
+
+.home-page-content .container .row .comics-box a .comics-details .comics-title {
+  color: white;
+  font-size: 12px;
+}
+
+.home-page-content .container .load-more-button {
+  text-align: center;
+  width: 180px;
+  color: white;
+  font-size: 14px;
+  background-color: #0282f9;
+  padding: 5px 15px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.home-page-content .mid-bar {
+  height: 100px;
+  margin-top: 25px;
+  background-color: #0282f9;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.home-page-content .mid-bar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page-content .mid-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.home-page-content .mid-bar ul li {
+  padding: 0 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.home-page-content .mid-bar ul li img {
+  width: 40px;
+  padding-right: 15px;
 }
 
 /*!
