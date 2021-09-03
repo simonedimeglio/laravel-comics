@@ -3,5 +3,5 @@
 @section('title', 'Comics')
 
 @section('content')
-    Dettaglio dei fumetti
+    @dump($comicsList[$arrayIndex])
 @endsection

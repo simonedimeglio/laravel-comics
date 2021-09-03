@@ -13,7 +13,9 @@
             <img src="/images/dc-logo.png" alt="DC Logo">
             <ul>
                 <li>CHARACTERS</li>
-                <li>COMICS</li>
+                <li class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">
+                    <a href="{{ route('homepage') }}">COMICS</a>
+                </li>
                 <li>MOVIES</li>
                 <li>TV</li>
                 <li>GAMES</li>
