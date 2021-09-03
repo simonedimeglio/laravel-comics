@@ -262,6 +262,130 @@ footer .bottom-footer-container .custom-width .social ul li img {
   padding-right: 15px;
 }
 
+.jumbo {
+  height: 300px;
+  width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.sub-jumbo {
+  height: 50px;
+  background-color: #0282f9;
+}
+
+.single-comics-content .container .current-comics-img {
+  height: 200px;
+  position: absolute;
+  top: 230px;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+.single-comics-content .container .row .col-9 .title {
+  color: black;
+  font-size: 18px;
+  padding: 25px 0;
+}
+
+.single-comics-content .container .row .col-9 .price-box {
+  display: flex;
+  align-items: center;
+  background-color: green;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.single-comics-content .container .row .col-9 .price-box .price-box-sx {
+  border: 0.5px solid darkgreen;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.single-comics-content .container .row .col-9 .price-box .price-box-sx .price-section {
+  color: lightgreen;
+}
+
+.single-comics-content .container .row .col-9 .price-box .price-box-sx .price-section span {
+  color: white;
+}
+
+.single-comics-content .container .row .col-9 .price-box .price-box-sx .availability {
+  color: lightgreen;
+}
+
+.single-comics-content .container .row .col-9 .price-box .price-box-dx {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid darkgreen;
+  height: 100%;
+  flex-grow: 1;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.single-comics-content .container .row .col-3 .adv-txt {
+  padding: 25px 0;
+  color: black;
+}
+
+.single-comics-content .container .row .col-3 .adv-img img {
+  height: 180px;
+}
+
+.single-comics-content .talent-and-specs .row {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background-color: lightgray;
+  display: flex;
+}
+
+.single-comics-content .talent-and-specs .row .talent h1 {
+  padding: 15px 10px;
+  font-size: 18px;
+}
+
+.single-comics-content .talent-and-specs .row .talent .row {
+  border-top: 1px solid gray;
+}
+
+.single-comics-content .talent-and-specs .row .talent .row .key {
+  color: black;
+}
+
+.single-comics-content .talent-and-specs .row .talent .row .value {
+  color: #0282f9;
+  cursor: pointer;
+}
+
+.single-comics-content .talent-and-specs .row .specs h1 {
+  padding: 15px 10px;
+  font-size: 18px;
+}
+
+.single-comics-content .talent-and-specs .row .specs .row {
+  border-top: 1px solid gray;
+}
+
+.single-comics-content .talent-and-specs .row .specs .row .key {
+  color: black;
+}
+
+.single-comics-content .talent-and-specs .row .specs .row .value {
+  color: #0282f9;
+  cursor: pointer;
+}
+
+.single-comics-content .talent-and-specs .row .specs .row .custom-value {
+  color: black;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -1,0 +1,121 @@
+.jumbo {
+    height: 300px;
+    width: 100%;
+    background-image: url("/images/jumbotron.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.sub-jumbo {
+    height: 50px;
+    background-color: #0282f9;
+}
+.single-comics-content {
+    .container {
+        .current-comics-img  {
+            height: 200px;
+            position: absolute;
+            top: 230px;
+            border: 2px solid white;
+            border-radius: 2px;
+        }
+        .row {
+            .col-9 {
+                .title {
+                    color: black;
+                    font-size: 18px;
+                    padding: 25px 0;
+                }
+                .price-box {
+                    display: flex;
+                    align-items: center;
+                    background-color: green;
+                    height: 50px;
+                    margin-bottom: 20px;
+                    .price-box-sx {
+                        border: 0.5px solid darkgreen;
+                        display: flex;
+                        width: 80%;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 100%;
+                        padding: 0 10px;
+                        .price-section {
+                            color: lightgreen;
+                            span {
+                                color: white;
+                            }
+                        }
+                        .availability {
+                            color: lightgreen;
+                        }
+                    }
+                    .price-box-dx {
+                        display: flex;
+                        align-items: center;
+                        border: 0.5px solid darkgreen;
+                        height: 100%;
+                        flex-grow: 1;
+                        justify-content: center;
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .col-3 {
+                .adv-txt {
+                    padding: 25px 0;
+                    color: black;
+                }
+                .adv-img {
+                    img {
+                        height: 180px;
+                    }
+                }
+            }
+        }
+    }
+    .talent-and-specs {
+        .row {
+            margin-top: 30px;
+            padding-bottom: 30px;
+            background-color: lightgray;
+            display: flex;
+            .talent {
+                h1 {
+                    padding: 15px 10px;
+                    font-size: 18px;
+                }
+                .row {
+                    border-top: 1px solid gray;
+                    .key {
+                        color: black;
+                    }
+                    .value {
+                        color: #0282f9;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .specs {
+                h1 {
+                    padding: 15px 10px;
+                    font-size: 18px;
+                }
+                .row {
+                    border-top: 1px solid gray;
+
+                    .key {
+                        color: black;
+                    }
+                    .value {
+                        color: #0282f9;
+                        cursor: pointer;
+                    }
+                    .custom-value {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
